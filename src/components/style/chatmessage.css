@@ -1,0 +1,34 @@
+
+.emoji-div{
+    position: absolute;
+    left: 23%;
+    top: 155px;
+}
+
+
+.date-seprate {
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .date-seprate::before,
+  .date-seprate::after {
+    background-color: #c6c6c6;
+    content: "";
+    display: inline-block;
+    height: 0.5px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+  }
+  
+  .date-seprate::before {
+    right: 0.5em;
+    margin-left: -50%;
+  }
+  
+  .date-seprate::after {
+    left: 0.5em;
+    margin-right: -50%;
+  }
+
