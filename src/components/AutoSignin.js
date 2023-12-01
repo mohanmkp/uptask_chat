@@ -16,7 +16,7 @@ export const AutoSignin = () => {
             email : email,
             password: password
         }
-        axios.post(ApiURL+'/user/sign-in/', postdata)
+        axios.post(ApiURL+'/user/uptask-auth/', postdata)
         .then(function (response) {
             console.log(response.data)
            setCookie("auth", JSON.stringify(response.data), 7); 
