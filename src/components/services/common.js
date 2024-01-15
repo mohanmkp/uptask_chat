@@ -8,8 +8,8 @@
 
 
 
-export const ApiURL ="http://13.232.79.206:8005"
+export const ApiURL ="http://3.110.181.139:8005"
 export const uptask_url = "https://uptaskdemo.visiontrek.in"
-export const socket_url = "ws://13.232.79.206:8005"
+export const socket_url = "ws://3.110.181.139:8005"
 
 
