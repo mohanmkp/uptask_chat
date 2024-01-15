@@ -22,7 +22,6 @@ export const SideBar = ({ setActiveUser, is_message }) => {
         axios.get(ApiURL+'/user/profile/', {headers})
         .then(function (response) {
             setUserdata(response.data)
-         
         })
         .catch(function (error) {
           console.log(error.response.data);

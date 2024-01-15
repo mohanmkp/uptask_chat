@@ -24,6 +24,7 @@ export const SignIn = () => {
         .then(function (response) {
             console.log(response.data)
           setCookie("auth", JSON.stringify(response.data), 7); 
+          
           setTimeout(()=>{
               console.log("waiting y")
               SetIsLoad(false)
